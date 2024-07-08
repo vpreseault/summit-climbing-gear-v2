@@ -15,7 +15,7 @@ export default function Blog() {
             <BlogHeader
               title="Bouldering 101: Everything You Need to Know to Get Started"
               date="2024-07-07"
-              imageUrl="/bouldering.avif" // replace with actual image URL
+              imageUrl="/./bouldering.avif" // replace with actual image URL
             />
             <div className="blog-paragraph">
               <p>

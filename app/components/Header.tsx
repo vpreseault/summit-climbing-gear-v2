@@ -19,7 +19,7 @@ const Header = () => {
         <Link href="/checkout">
           <Image
             className="shopping-cart"
-            src="/grocery-store.png" // Update the src path
+            src="/./grocery-store.png" // Update the src path
             alt="Shopping cart icon"
             width={24}
             height={24}
