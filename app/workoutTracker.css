@@ -1,0 +1,38 @@
+.workout-tracker {
+  text-align: center;
+  padding: 20px;
+}
+
+.date-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.date-navigation h2 {
+  margin: 0 20px;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: darkorange;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  font-size: 18px;
+}

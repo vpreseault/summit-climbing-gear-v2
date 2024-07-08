@@ -1,0 +1,65 @@
+.shop-page {
+  padding: 0 50px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  padding-right: 20px;
+}
+
+.sidebar h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+}
+
+.product-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: calc(31.73% - 20px); /* 3 columns with gap */
+}
+
+.product-image {
+  background-color: #ccc;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.buy-now {
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.buy-now:hover {
+  background-color: darkorange;
+}

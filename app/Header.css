@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding-right: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.nav .shopping-cart:hover {
+  color: orange;
+}
+
+.nav .buy-gear {
+  background-color: orange;
+  color: black;
+  padding: 5px 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
