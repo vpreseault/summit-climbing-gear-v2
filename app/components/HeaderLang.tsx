@@ -7,6 +7,10 @@ const HeaderLang = ({
   showLanguageButton,
   onLanguageChange,
   currentLanguage,
+}: {
+  showLanguageButton: boolean;
+  onLanguageChange: () => void;
+  currentLanguage: string;
 }) => {
   return (
     <header className="header">

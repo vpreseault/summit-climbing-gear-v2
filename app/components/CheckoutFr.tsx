@@ -48,7 +48,10 @@ const Checkout = () => {
     return true;
   };
 
-  const handleInputChange = (event, step) => {
+  const handleInputChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    step: number
+  ) => {
     const { name, value } = event.target;
     if (step === 1) {
       setShippingInfo({
