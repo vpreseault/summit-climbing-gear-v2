@@ -78,7 +78,7 @@ const Checkout = () => {
       <div className="step-content">
         {currentStep === 1 && (
           <div>
-            <h2>Étape 1 : Informations d'expédition</h2>
+            <h2>Étape 1 : Informations d&apos;expédition</h2>
             <input
               type="text"
               name="name"
