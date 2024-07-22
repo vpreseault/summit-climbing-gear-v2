@@ -23,7 +23,7 @@ const Checkout = () => {
       setErrorMessage("");
       setCurrentStep((prevStep) => Math.min(prevStep + 1, 3));
     } else {
-      setErrorMessage("Please fill out all fields");
+      setErrorMessage("Veuillez remplir tous les champs");
     }
   };
 
@@ -64,7 +64,7 @@ const Checkout = () => {
   };
 
   const handleConfirm = () => {
-    alert("Order Confirmed!");
+    alert("Commande confirmée!");
     location.reload();
   };
 
@@ -78,32 +78,32 @@ const Checkout = () => {
       <div className="step-content">
         {currentStep === 1 && (
           <div>
-            <h2>Step 1: Shipping Information</h2>
+            <h2>Étape 1 : Informations d'expédition</h2>
             <input
               type="text"
               name="name"
-              placeholder="Name"
+              placeholder="Nom"
               value={shippingInfo.name}
               onChange={(e) => handleInputChange(e, 1)}
             />
             <input
               type="text"
               name="address"
-              placeholder="Address"
+              placeholder="Adresse"
               value={shippingInfo.address}
               onChange={(e) => handleInputChange(e, 1)}
             />
             <input
               type="text"
               name="city"
-              placeholder="City"
+              placeholder="Ville"
               value={shippingInfo.city}
               onChange={(e) => handleInputChange(e, 1)}
             />
             <input
               type="text"
               name="zip"
-              placeholder="Postal code"
+              placeholder="Code Postal"
               value={shippingInfo.zip}
               onChange={(e) => handleInputChange(e, 1)}
             />
@@ -111,18 +111,18 @@ const Checkout = () => {
         )}
         {currentStep === 2 && (
           <div>
-            <h2>Step 2: Payment Details</h2>
+            <h2>Étape 2 : Détails du paiement</h2>
             <input
               type="text"
               name="cardNumber"
-              placeholder="Card Number"
+              placeholder="Numéro de carte"
               value={paymentDetails.cardNumber}
               onChange={(e) => handleInputChange(e, 2)}
             />
             <input
               type="text"
               name="expiry"
-              placeholder="Expiry Date"
+              placeholder="Date d'expiration"
               value={paymentDetails.expiry}
               onChange={(e) => handleInputChange(e, 2)}
             />
@@ -137,18 +137,18 @@ const Checkout = () => {
         )}
         {currentStep === 3 && (
           <div>
-            <h2>Step 3: Review and Confirm</h2>
+            <h2>Étape 3 : examiner et confirmer</h2>
             <div>
-              <h3>Shipping Information</h3>
-              <p>Name: {shippingInfo.name}</p>
-              <p>Address: {shippingInfo.address}</p>
-              <p>City: {shippingInfo.city}</p>
-              <p>ZIP Code: {shippingInfo.zip}</p>
+              <h3>Informations sur la livraison</h3>
+              <p>Nom: {shippingInfo.name}</p>
+              <p>Adresss: {shippingInfo.address}</p>
+              <p>Ville: {shippingInfo.city}</p>
+              <p>Code postal: {shippingInfo.zip}</p>
             </div>
             <div>
-              <h3>Payment Details</h3>
-              <p>Card Number: {paymentDetails.cardNumber}</p>
-              <p>Expiry Date: {paymentDetails.expiry}</p>
+              <h3>Détails de paiement</h3>
+              <p>Numéro de carte: {paymentDetails.cardNumber}</p>
+              <p>Date d&apos;expiration: {paymentDetails.expiry}</p>
               <p>CVV: {paymentDetails.cvv}</p>
             </div>
           </div>
@@ -156,9 +156,11 @@ const Checkout = () => {
       </div>
       {errorMessage && <div className="error-message">{errorMessage}</div>}
       <div className="navigation-buttons">
-        {currentStep > 1 && <button onClick={prevStep}>Previous</button>}
-        {currentStep < 3 && <button onClick={nextStep}>Next</button>}
-        {currentStep === 3 && <button onClick={handleConfirm}>Confirm</button>}
+        {currentStep > 1 && <button onClick={prevStep}>Précédent</button>}
+        {currentStep < 3 && <button onClick={nextStep}>Suivant</button>}
+        {currentStep === 3 && (
+          <button onClick={handleConfirm}>Confirmer</button>
+        )}
       </div>
     </div>
   );
