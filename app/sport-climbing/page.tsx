@@ -15,7 +15,7 @@ export default function Blog() {
             <BlogHeader
               title="Sport Climbing: A Dynamic Climbing Discipline"
               date="2024-07-21"
-              imageUrl="./sport-climbing.webp"
+              imageUrl="https://vpreseault.github.io/summit-climbing-gear-v2/sport-climbing.webp"
             />
             <div className="blog-paragraph">
               <p>

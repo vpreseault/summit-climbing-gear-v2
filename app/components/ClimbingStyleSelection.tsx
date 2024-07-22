@@ -11,7 +11,7 @@ const ClimbingStyleSection = () => {
         <div className="card">
           <div className="card-image">
             <Image
-              src="/./sport-climbing.webp"
+              src="https://vpreseault.github.io/summit-climbing-gear-v2/sport-climbing.webp"
               alt="Sport Climbing: A Dynamic Climbing Discipline"
               width={600}
               height={150}
@@ -27,7 +27,7 @@ const ClimbingStyleSection = () => {
         <div className="card">
           <div className="card-image">
             <Image
-              src="/./trad-climbing.jpg"
+              src="https://vpreseault.github.io/summit-climbing-gear-v2/trad-climbing.jpg"
               alt="Traditional Climbing: A Timeless Climbing Discipline"
               width={600}
               height={150}
@@ -43,7 +43,7 @@ const ClimbingStyleSection = () => {
         <div className="card">
           <div className="card-image">
             <Image
-              src="/./bouldering.avif"
+              src="https://vpreseault.github.io/summit-climbing-gear-v2/bouldering.avif"
               alt="Bouldering 101: Everything You Need to Know to Get Started"
               width={600}
               height={150}

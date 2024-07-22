@@ -15,7 +15,7 @@ export default function Blog() {
             <BlogHeader
               title="Traditional Climbing: A Timeless Climbing Discipline"
               date="2024-07-14"
-              imageUrl="/./trad-climbing.jpg" // replace with actual image URL
+              imageUrl="https://vpreseault.github.io/summit-climbing-gear-v2/trad-climbing.jpg" // replace with actual image URL
             />
             <div className="blog-paragraph">
               <p>

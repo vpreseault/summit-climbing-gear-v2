@@ -7,19 +7,20 @@ const Bundle = () => {
       id: 1,
       name: "La Sportiva Solution Climbing Shoes - Unisex",
       price: 172.46,
-      image: "/./shoes1.avif", // Replace with actual image path
+      image: "https://vpreseault.github.io/summit-climbing-gear-v2/shoes1.avif", // Replace with actual image path
     },
     {
       id: 2,
       name: "Black Diamond Solution Harness - Men's",
       price: 99.95,
-      image: "/./harness1.avif", // Replace with actual image path
+      image:
+        "https://vpreseault.github.io/summit-climbing-gear-v2/harness1.avif", // Replace with actual image path
     },
     {
       id: 3,
       name: "Edelrid Boa Eco 9.8mm Rope",
       price: 259.95,
-      image: "/./rope1.avif", // Replace with actual image path
+      image: "https://vpreseault.github.io/summit-climbing-gear-v2/rope1.avif", // Replace with actual image path
     },
   ];
 

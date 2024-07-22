@@ -19,7 +19,9 @@ const Hero = () => {
       </div>
       <div className="hero-image">
         <Image
-          src={"/./rock-climbing-Banff.jpg"}
+          src={
+            "https://vpreseault.github.io/summit-climbing-gear-v2/rock-climbing-Banff.jpg"
+          }
           alt={"title"}
           width="0"
           height="0"
