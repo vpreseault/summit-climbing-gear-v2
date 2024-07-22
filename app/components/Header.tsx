@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image"; // Import the Image component from the correct package
+import Image from "next/image";
 import "../Header.css";
 
 const Header = () => {
@@ -11,7 +11,7 @@ const Header = () => {
       </Link>
       <nav className="nav">
         {/* <a href="#about">About</a> */}
-        <Link href="/blog">Blog</Link>
+        <Link href="/bouldering">Blog</Link>
         <Link href="/workout-tracker">Workout Tracker</Link>
         <Link href="/shop" className="buy-gear">
           Buy Gear

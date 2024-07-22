@@ -3,20 +3,24 @@ import Comment from "./Comment";
 
 const comments = [
   {
-    name: "NAME",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    name: "Michael Brown",
+    text: "Really appreciate the detailed breakdown of the equipment needed. As a beginner, it's helpful to know exactly what to get.",
   },
   {
-    name: "NAME",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    name: "Emily Johnson",
+    text: "I've always been intimidated by climbing, but your tips make it seem so much more approachable. Can't wait to try it out!",
   },
   {
-    name: "NAME",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    name: "John Smith",
+    text: "This was a great read! I've been looking to get into climbing and this post gave me all the info I needed. Thanks!",
   },
   {
-    name: "NAME",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    name: "David Wilson",
+    text: "Thanks for the insights! I've been climbing for a while, but it's always good to get a refresher on the basics and learn new ways to improve.",
+  },
+  {
+    name: "Sarah Davis",
+    text: "Great article! The tips and tricks section was particularly useful. I've been struggling with my technique, and these suggestions will definitely help.",
   },
 ];
 
